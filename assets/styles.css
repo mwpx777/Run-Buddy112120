@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	color: #39a6b2;
 	font-family:   Helvetica, Arial, "sans-serif";
@@ -16,7 +21,8 @@ header h1 {
 	font-weight: bold;
 	font-size: 36px;
 	color: #fce138;
-	margin:0;	
+	margin:0;
+	display: inline;
 }
 
 header a {
@@ -31,4 +37,10 @@ header nav {
 
 header nav ul li {
 	display: inline;
+}
+
+header nav ul li a {
+	margin: 0 30px;
+	font-weight: lighter;
+	font-size: 22px;
 }
