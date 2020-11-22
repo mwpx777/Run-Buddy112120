@@ -34,6 +34,7 @@ header a {
 header nav {
 	float: right;
 	margin:7px 0;
+	
 } 
 
 header nav ul li {
@@ -80,5 +81,17 @@ section {
 	height:1200px;
  	background-size: cover;
   	background-position: center;
+	position: relative;
 }
 /* Hero Style End */
+
+.hero-form {
+  border: 3px solid #024e76;
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
+}
