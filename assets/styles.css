@@ -19,14 +19,49 @@
 	margin: 0 auto;
 }
 
-.intro h2 {
+.section-title {
 	display:inline-block;
 	font-size: 55px;
 	color: #024e76;
 	margin-bottom: 35px;
 	padding: 0 100px 20px 100px;
 	border-bottom: 3px solid;
+}
+
+.primary-border {
 	border-color: #fce138;
+}
+
+.secondary-border {
+	border-color: #39a6b2;
+}
+
+.steps {
+	text-align: center;
+	background: #fce138;
+}
+
+.steps div {
+	marign-bottom:80px
+}
+
+.steps img {
+	width: 15%;
+	margin: 10px 0;
+}
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+	color: #39a6b2;
+	font-size: 23px;
+}
+
+.steps span {
+	font-size: 38px;
 }
 
 body {
@@ -68,30 +103,7 @@ header nav ul li a {
 	font-weight: lighter;
 	font-size: 22px;
 }
-
-footer {
-	background: #fce138;
-	width: 100%;
-	padding: 40px 35px;
-	
-}
-
-footer h2{
-	display: inline;
-	color: #024e76;
-	font-size: 30px;
-	margin: 0;
-}
-
-footer div {
-	float: right;
-	line-height: 1.5;
-	text-align: center;
-}
-		
-footer a {
-	color: #39a6b2;
-}
+/*Header style end*/
 
 section {
 	padding:60px;
@@ -105,7 +117,7 @@ section {
   	background-position: center;
 	position: relative;
 }
-/* Hero Style End */
+
 
 .hero-form {
   border: 3px solid #024e76;
@@ -150,12 +162,28 @@ section {
 
 /*hero style end*/
 
-#what-you-do {
-	background-color: #fce138;
+/*footer style*/
+
+footer {
+	background: #fce138;
+	width: 100%;
+	padding: 40px 35px;
+	
 }
 
-.icons {
-	width: 100px;
-	margin: 30px;
-	
+footer h2{
+	display: inline;
+	color: #024e76;
+	font-size: 30px;
+	margin: 0;
+}
+
+footer div {
+	float: right;
+	line-height: 1.5;
+	text-align: center;
+}
+		
+footer a {
+	color: #39a6b2;
 }
