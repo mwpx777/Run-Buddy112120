@@ -240,14 +240,29 @@ section {
 /*Reach out style Start*/
 
 .contact {
-	background: #024e76;
-	text-align: center;
-	
+  text-align: center;
+  background: #024e76;
 }
 
 .contact h2{
 	color: #fce138;
 }
+
+ .contact-info iframe{
+	height: 400px;
+	width: 400px;
+	 
+}
+
+ .contact-info div {
+  width: 410px;
+  display: inline-block;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: white;
+	}	
+
+
 /*Reach out end*/
 
 /*footer Start*/
