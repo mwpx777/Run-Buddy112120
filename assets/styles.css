@@ -232,6 +232,25 @@ section {
 /*Trainer section end*/
 /*footer style*/
 
+.email {
+	text-decoration: none;
+	color: #fce138;
+}
+	
+/*Reach out style Start*/
+
+.contact {
+	background: #024e76;
+	text-align: center;
+	
+}
+
+.contact h2{
+	color: #fce138;
+}
+/*Reach out end*/
+
+/*footer Start*/
 footer {
 	background: #fce138;
 	width: 100%;
@@ -254,14 +273,5 @@ footer div {
 		
 footer a {
 	color: #39a6b2;
-}
-
-.email {
-	text-decoration: none;
-	color: #fce138;
-	
-}
-.reach-out {
-	background: #024e76;
-	color: white;
-}
+}	
+/*Footer End*/
