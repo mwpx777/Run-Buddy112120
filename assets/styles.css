@@ -19,6 +19,10 @@
 	margin: 0 auto;
 }
 
+.title {
+	text-align: center;	
+}
+
 .section-title {
 	display:inline-block;
 	font-size: 55px;
@@ -161,6 +165,19 @@ section {
 }
 
 /*hero style end*/
+
+/*Trainers section*/
+
+.trainers {
+	text-align: center;
+}
+
+.trainer {
+	width: 900px;
+	margin: 0 auto 30px auto;
+	background: #024e76;
+	color: #fce138;	
+}
 
 /*footer style*/
 
