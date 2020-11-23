@@ -255,3 +255,13 @@ footer div {
 footer a {
 	color: #39a6b2;
 }
+
+.email {
+	text-decoration: none;
+	color: #fce138;
+	
+}
+.reach-out {
+	background: #024e76;
+	color: white;
+}
