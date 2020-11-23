@@ -7,6 +7,28 @@
 	box-sizing: border-box;
 }
 
+.intro {
+	text-align: center;
+}
+
+.intro p {
+	line-height: 1.7;
+	color:#39a6b2;
+	width: 80%;
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+.intro h2 {
+	display:inline-block;
+	font-size: 55px;
+	color: #024e76;
+	margin-bottom: 35px;
+	padding: 0 100px 20px 100px;
+	border-bottom: 3px solid;
+	border-color: #fce138;
+}
+
 body {
 	color: #39a6b2;
 	font-family:   Helvetica, Arial, "sans-serif";
@@ -127,4 +149,13 @@ section {
 }
 
 /*hero style end*/
-/*making sure css is updating*/
+
+#what-you-do {
+	background-color: #fce138;
+}
+
+.icons {
+	width: 100px;
+	margin: 30px;
+	
+}
