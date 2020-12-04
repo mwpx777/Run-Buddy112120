@@ -40,33 +40,7 @@
 	border-color: #39a6b2;
 }
 
-.steps {
-	text-align: center;
-	background: #fce138;
-}
 
-.steps div {
-	margin-bottom:80px
-}
-
-.steps img {
-	width: 15%;
-	margin: 100px 0 20px 0;
-}
-.steps h3 {
-  color: #024e76;
-  font-size: 46px;
-  margin-top: 10px;
-}
-
-.steps p {
-	color: #39a6b2;
-	font-size: 23px;
-}
-
-.steps span {
-	font-size: 38px;
-}
 
 body {
 	color: #39a6b2;
@@ -75,8 +49,10 @@ body {
 
 /*apply styles to <header>*/
 header {
+	display:flex;
 	padding :20px 35px;
 	background-color: #39a6b2;
+	justify-content: space-between;
 }
 
 header h1 {
@@ -84,7 +60,7 @@ header h1 {
 	font-size: 36px;
 	color: #fce138;
 	margin:0;
-	display: inline;
+	flex-flow: row wrap;
 }
 
 header a {
@@ -93,9 +69,7 @@ header a {
 }
 
 header nav {
-	float: right;
 	margin:7px 0;
-	
 } 
 
 header nav ul li {
@@ -126,6 +100,7 @@ section {
 .hero-form {
   border: 3px solid #024e76;
   background-color: #fce138;
+  opacity: 0.7;
   padding: 20px;
   width: 600px;
   color: #024e76;
@@ -166,7 +141,34 @@ section {
 
 /*hero style end*/
 
+/*steps start*/
+.steps {
+	text-align: center;
+	background: #fce138;
+}
 
+.steps div {
+	margin-bottom:80px
+}
+
+.steps img {
+	width: 15%;
+	margin: 100px 0 20px 0;
+}
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+	color: #39a6b2;
+	font-size: 23px;
+}
+
+.steps span {
+	font-size: 38px;
+}
 
 /*Trainers section*/
 
