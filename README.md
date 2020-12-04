@@ -15,3 +15,4 @@ https://mwpx777.github.io/Run-Buddy112120/
 Made with ❤️ by Mark Peterson
 
  
+# ©️2020 Run Buddy, Inc 
