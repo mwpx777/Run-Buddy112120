@@ -286,6 +286,9 @@ section {
 
 /*footer Start*/
 footer {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
 	background: #fce138;
 	width: 100%;
 	padding: 40px 35px;
@@ -293,16 +296,21 @@ footer {
 }
 
 footer h2{
-	display: inline;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 	color: #024e76;
 	font-size: 30px;
 	margin: 0;
 }
 
-footer div {
-	float: right;
+footer div a{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 	line-height: 1.5;
 	text-align: center;
+	padding: 5px;
 }
 		
 footer a {
