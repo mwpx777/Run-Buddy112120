@@ -156,39 +156,66 @@ section {
 
 /*hero style end*/
 
-/*steps start*/
+/*steps section start*/
 
 .flex-row {
 	display:flex;
 	flex-flow:column wrap;
-	text-align: center;
+	justify-content: center;
 }
+
 .steps {
 	background: #fce138;
 }
 
-.steps div {
-	margin-bottom:80px
+.step {
+	margin: 50px auto;
+	padding-bottom: 50px;
+	width:80%;
+	border-bottom: 1px solid #39a6b2;
+	display:flex;
+	flex: 1 30%;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.step h3{
+	color: #024e76;
+	font-size: 46px;
+  }
+
+.step-info {
+	display:flex;
+	flex-flow: wrap;
+	align-items: center;
+	flex:2 30%;
 }
 
-.steps img {
-	width: 15%;
-	margin: 100px 0 20px 0;
-}
-.steps h3 {
-  color: #024e76;
-  font-size: 46px;
-  margin-top: 10px;
+.step-text h4 {
+	font-size: 26px;
+	line-height: 1.5;
+	color: #024e76;
 }
 
-.steps p {
+.step-img {
+	flex: 1 12%;
+	margin-right: 20px;
+}
+
+.step-img img {
+	max-width: 100%;
+}
+
+.step-text {
+	flex: 12;
+}
+
+.step-text p {
 	color: #39a6b2;
-	font-size: 23px;
+	font-size: 18px;
 }
 
-.steps span {
-	font-size: 38px;
-}
+/*steps section end*/
 
 /*Trainers section*/
 
