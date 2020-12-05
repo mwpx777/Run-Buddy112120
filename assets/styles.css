@@ -175,10 +175,11 @@ section {
 	border-bottom: 1px solid #39a6b2;
 	display:flex;
 	flex: 1 30%;
-	flex-flow: wrap;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
+
 .step h3{
 	color: #024e76;
 	font-size: 46px;
@@ -186,7 +187,7 @@ section {
 
 .step-info {
 	display:flex;
-	flex-flow: wrap;
+	flex-wrap: wrap;
 	align-items: center;
 	flex:2 30%;
 }
