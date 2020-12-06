@@ -171,7 +171,7 @@ section {
 .step {
 	margin: 50px auto;
 	padding-bottom: 50px;
-	width:80%;
+	width: 80%;
 	border-bottom: 1px solid #39a6b2;
 	display:flex;
 	flex: 1 30%;
@@ -183,6 +183,7 @@ section {
 .step h3{
 	color: #024e76;
 	font-size: 46px;
+	width: 30%;
   }
 
 .step-info {
@@ -274,19 +275,24 @@ section {
   background: #024e76;
 }
 
+.contact-info > *{
+	margin:15px;
+	flex: 1;
+
+}
+
 .contact h2{
 	color: #fce138;
 }
 
  .contact-info iframe {
-	width: 400px;
 	height: 400px;
 }
 
  .contact-info {
 	display:flex;
-	justify-content: center;
-	align-items: top;
+	justify-content: space-between;
+	flex-wrap: wrap
 	color: white;
 }	
 
@@ -294,13 +300,28 @@ section {
 	padding: 0 20px;
 	width: 60%;
 }
-.contact-text h3 {
+.contact-text h3, .contact-form h3 {
 	color:#FCE138;
 	font-size: 32px;
-
 }
 
-.contact-text p, .contact-text address {
+.contact-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+	border: 1px solid #024e76;
+	display: block;
+	padding: 7px 15px;
+	font-size: 16px;
+	color: #024e76;
+	width: 100%;
+	margin: 5px 0 15px 0;
+}
+
+
+.contact-text  {
 	line-height: 1.5;
 	font-size: 20px;
 	font-style: normal;
@@ -308,6 +329,16 @@ section {
 
 .contact-info a {
 	color: #FCE138
+}
+
+.contact-form button {
+	width: 100%;
+	border:none;
+	background-color: #fce138 ;
+	color: #024e76;
+	text-align:center;
+	padding: 15px 0;
+	font-size:25px;
 }
 
 /*Reach out end*/
