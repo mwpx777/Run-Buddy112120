@@ -287,13 +287,16 @@ section {
 
  .contact-info iframe {
 	height: 400px;
+	
+	
 }
 
  .contact-info {
-	display:flex;
-	justify-content: space-between;
-	flex-wrap: wrap
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 	color: white;
+	
 }	
 
 .contact-text {
@@ -303,11 +306,6 @@ section {
 .contact-text h3, .contact-form h3 {
 	color:#FCE138;
 	font-size: 32px;
-}
-
-.contact-form {
-	display: flex;
-	flex-direction: column;
 }
 
 .contact-form input, .contact-form textarea {
@@ -409,6 +407,19 @@ footer a {
 
 	.hero-cta {
 		text-align: center;
+	}
+
+	.section-title {
+		width: 70%;
+	}
+
+	.trainer {
+		flex: 0 70%;
+	}
+
+	.contact-info iframe {
+		flex: 1 100%;
+		width: 800px;
 	}
 }
   
