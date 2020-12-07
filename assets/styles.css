@@ -302,17 +302,21 @@ section {
 	
 }
 
-.service-grid-items.subscription {
-	display:grid;
+.service-grid-items.both {
 	grid-column: 2 / span 2;
-	grid-row: 5 /span 1;
 }
 
 .service-grid-items.cancel {
-	display:grid;
-	grid-column: 1 / span 1;
-	grid-row: 1 /span 7;
-}
+	writing-mode: vertical-lr;
+	grid-column: 1;
+	grid-row: 1 / -1;
+	transform: rotate(180deg);
+  }
+  
+ .grid-head, .grid-price, .cancel {
+	 font-size: 1.5rem;
+	 font-weight: bold;
+ }
 
 .service-grid-container {
 
