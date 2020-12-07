@@ -40,18 +40,18 @@ body {
 
 /*apply styles to <header>*/
 header {
-	display:flex;
+	display: flex;
 	padding :20px 35px;
 	background-color: #39a6b2;
 	justify-content: space-between;
+	flex-wrap:wrap;
 }
 
 header h1 {
 	font-weight: bold;
 	font-size: 36px;
 	color: #fce138;
-	margin:0;
-	flex-flow: wrap;
+	margin: 0;
 }
 
 header a {
@@ -355,8 +355,6 @@ footer {
 }
 
 footer h2{
-	display: flex;
-	justify-content: flex-start;
 	align-items: center;
 	color: #024e76;
 	font-size: 30px;
@@ -365,7 +363,7 @@ footer h2{
 
 footer div a{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
 	line-height: 1.5;
 	text-align: center;
@@ -380,8 +378,39 @@ footer a {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+	header {
+	  padding-bottom: 0;
+	  justify-content: center;
+	}
+  
+	header h1 {
+	  width: 100%;
+	  text-align: center;
+	}
+  
+	header nav ul {
+	  margin-top: 20px;
+	  width: 100%;
+	  justify-content: center;
+	}
+  
+	header nav ul li a {
+	  font-size: 20px;
+	}
+  
+	footer h2, footer div {
+	  text-align: center;
+	  width: 100%;
+	}
+ 
+	.hero-cta, .hero-form {
+		width: 100%;
+	}
 
-  }
+	.hero-cta {
+		text-align: center;
+	}
+}
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
