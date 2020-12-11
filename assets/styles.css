@@ -345,31 +345,25 @@ section {
 	color: var(--primary-color);	
 	flex: 1;
 	overflow: hidden;
-	
-	
 }
 
-
-
 .trainer-1{
-	background-image: url("/assets/trainer-1.jpg");
+	background-image: url("trainer-1.jpg");
 	background-size: cover;
 }
 
 
 .trainer-2{
-	background-image: url("/assets/trainer-2.jpg");
+	background-image: url("trainer-2.jpg");
 	background-size: cover;
 }
 
 .trainer-3 {
-	background-image: url("/assets/trainer-3.jpg");
+	background-image: url("trainer-3.jpg");
 	background-size: cover;
 	
 	
 }
-/**/
-
 
 .trainer-img {
 	position: relative;
