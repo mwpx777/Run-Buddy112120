@@ -223,11 +223,6 @@ section {
   content: "";
 }
 
-/*.some-class {
-	text-shadow: 0 0 10px rgba(0,0,0,0.5);
-	box-shadow: 5px 10px 15px rgba(0,0,0,0.25);
-}*/
-
 .form-input {
 	border: 1px solid  var(--secondary-color);
 	display: block;
@@ -340,6 +335,8 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	
+	
 }
 
 .trainer  {
@@ -347,6 +344,59 @@ section {
 	background:  var(--secondary-color);
 	color: var(--primary-color);	
 	flex: 1;
+	overflow: hidden;
+	
+	
+}
+
+
+
+.trainer-1{
+	background-image: url("/assets/trainer-1.jpg");
+	background-size: cover;
+}
+
+
+.trainer-2{
+	background-image: url("/assets/trainer-2.jpg");
+	background-size: cover;
+}
+
+.trainer-3 {
+	background-image: url("/assets/trainer-3.jpg");
+	background-size: cover;
+	
+	
+}
+
+
+
+.trainer-img {
+	position: relative;
+	width: 100%;
+	min-height: 300px;
+	display:flex;
+	padding:15px;
+	align-items: flex-end;
+}	
+
+
+ 
+
+ .trainer-img::after {
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: .5s;
+	background-image: linear-gradient(rgba(252, 225, 56, 0.3), rgba(2, 78, 118, 1));
+}
+
+.trainer:hover .trainer-img::after{
+   opacity: 1;
 }
 
 .trainer-bio {
@@ -371,10 +421,33 @@ section {
 	font-size: 17px;
 	padding: 25px;
 }
-
-.trainer img {
-	width: 100%;
+.trainer-bio h3, .trainer-bio h4{
+	display:none;
 }
+
+.trainer-img h3 {
+	font-size: 28px;
+	position: relative;
+	top:200px;
+	z-index: 2;
+	opacity: 0;
+	
+
+}
+.trainer-img h4 {
+	font-size: 22px;
+	position: relative;
+	top: 200px;
+	z-index: 2;
+	opacity: 0;
+}	
+.trainer:hover .trainer-img h3, .trainer:hover .trainer-img h4 {
+	position: relative;
+	top: 0;
+	opacity: 1;
+	transition: .6s;
+}	
+	
 /*Trainer section end*/
 
 /*Service Class Section Start*/
@@ -630,6 +703,7 @@ footer a {
 	.trainer {
 		flex: 0 70%;
 	}
+	
 
 	.contact-info iframe {
 		flex: 1 100%;
@@ -660,6 +734,14 @@ footer a {
 
 	.step-text {
 		flex: 100%;
+	}
+
+	.trainer h3, .trainer h4, .trainer-img::after{
+		display:none;
+		
+	}
+	.trainer-bio h3, .trainer-bio h4 {
+		display: block;
 	}
 
 	.service-grid-container {
